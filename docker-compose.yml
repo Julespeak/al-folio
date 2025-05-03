@@ -19,4 +19,4 @@ services:
       - .:/srv/jekyll
     environment:
       - JEKYLL_ENV=development
-    command: bundle exec jekyll build
+    command: bundle exec jekyll build --trace

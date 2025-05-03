@@ -2,96 +2,117 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Jules Michael Stuart
+    - name: Occupation
+      value: Physicist
+    - name: Sun Sign
+      value: Sagittarius ♐
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: Massachusetts Institute of Technology, Cambridge, Massachusetts
+      year: 2021
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Physics (Atomic, Molecular and Optical Physics)
+        - title: Thesis - "Integrated Technologies and Techniques for Trapped Ion Array Architectures"
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+            - Available on <a href="https://dspace.mit.edu/handle/1721.1/142846">DSpace@MIT</a>
+    - title: B.S.
+      institution: The University of Texas at Austin, Austin, Texas
+      year: 2014
       description:
-        - Description 1.
-        - Description 2.
+        - Honors Physics
+        - Dean's Scholars Program
+        - Certificate in Statistics and Scientific Computation
+        - <a href="https://www.flickr.com/photos/utcns/14292613395">Dean's Honored Graduate</a>
 
-- title: Experience
+- title: Research Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Postdoctoral Research Associate
+      institution: National Institute of Standards and Technology, Boulder, Colorado
+      year: 2021 - 2024
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Helped build an experiment for quantum networking research using trapped atomic ions in surface electrode traps with integrated fiber Fabry–Pérot cavities.
+        - Led the computer control effort in the networking lab using an open source controller (<a href="https://m-labs.hk/experiment-control/artiq/">ARTIQ</a>).
+        
+
+    - title: Research Assistant
+      institution: MIT Lincoln Laboratory, Lexington, Massachusetts
+      year: 2016 - 2021
       description:
-        - Description 1.
-        - Description 2.
+        - Demonstrated the first trapping of ions using only (DC) voltages generated on-chip.  Measured the voltage noise in these circuits using trapped-ions and compared results with bench measurements.
+        - Constructed a new experiment in the ion lab for trapping calcium atoms for testing future rounds of integrated electronics chips.  Led an effort to implement a new Python-based software and hardware control system across all of the experiments in the ion-trapping lab.
+        - Developed ion traps and voltage sources for rapid transport, splitting and merging of chains of trapped ions.  Mentored a student to help develop voltage waveforms for doing these operations in the presence of low-pass filters.
+        - Co-led an experiment to develop a trapped ion atomic clock using a fiber-based stimulated Brillouin scattering laser, operating in a new regime of stability for fiber lasers.
+        - Co-led the experimental effort to address a trapped ion using a trap with integrated photonics at multiple wavelengths.  Engineered a mounting system for attaching fiber-optic arrays to the edge of ion trap chips.  Characterized photoelectric charging due to ionization lasers and improved the finite-element simulations of electrostatic potentials.
+        - Helped to develop a general method for determining the technical noise contribution to heating rates in ion traps.
+        - Investigated surface preparation methods for reducing motional decoherence of trapped ions.  Employed in situ plasma cleaning capability with an ex situ ion mill to determine the effects of surface reconstruction and hydrocarbon removal on the heating rate of trapped ions.  Compared milling results with x-ray photoelectron spectroscopy analysis.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Research Assistant
+      institution: Massachusetts Institute of Technology, Cambridge, Massachusetts
+      year: 2014 - 2016
       description:
+        - Wrote FPGA firmware for an ADC/DAC board to control feedback systems.  Addressed high-resolution analog controllers using the maximum possible bandwidth to minimize the frequency noise on lasers locked with PID loops.  Created a system of flexible IIR filter stages that can be dynamically switched to obtain an ad hoc balance between the speed of the loop and the complexity of the transfer function.
+        - Designed and tested a custom circuit for Pound-Drever-Hall locks on lasers.  Assembled analog control boards that have been used for such various things as modulating a high-finesse laser lock and driving fixed-frequency AOMs.
+        - Helped to maintain web-enabled software for laboratory control.  Developed front ends written in Javascript and Python to control low-level device function and communicate with a host server for the main experiment.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Research Assistant
+      institution: The University of Texas at Austin
+      year: 2012 - 2014
+      description:
+        - Constructed a lock-in amplifier for Auger spectroscopy.  Developed LabVIEW software for controlling the high-voltage bias field and performing the signal acquisition and processing.
+        - Designed and constructed a digital delay generator with ~1 ns precision.  Replicated the function of a discontinued IC with a custom circuit and created a means for USB control with an Arduino.
+        - Participated in an experiment to probe the surface of amorphous water with a helium beam.  Used a pulsed beam of helium incident on a thin foil with a few layers of adsorbed water, which could be brought quickly into the amorphous state using a wet liquid nitrogen cooling stage.
+
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: The Ghost Detector 9000
+      year: 2022 - 2023
+      description: 👻
+    - title: The S.P.E.C.T.R.O. Scope
+      year: 2023 - 2024
+      description: 📹
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - year: 2021
+      items: 
+        - NRC Postdoctroal Research Associateship
+    - year: 2014
+      items: 
+        - Praecis Presidential Graduate Fellowship
+        - Dean's Honored Graduate
+    - year: 2013
+      items: 
+        - Eva Stevenson Woods Unrestricted Endowed Presidential Scholarship
+    - year: 2012
+      items: 
+        - Kevin E. Underhill Memorial Endowed Presidential Scholarship
+    - year: 2010
+      items: 
+        - National Merit Scholarship
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Quantum Computing and Networking
+      items: 
+        - Stuff goes here...
+    - title: Atomic Physics with Trapped Ions
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+        - Ions 4 lyfe
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Electronics
+    - Embedded Software Development
+    - Photography
+    - Music
+    - Video Games
