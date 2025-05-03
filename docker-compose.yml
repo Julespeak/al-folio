@@ -12,10 +12,11 @@ services:
     #     GROUPNAME: # id -gn
     #     USERID: # id -u
     #     USERNAME: # echo $USER
-    ports:
-      - 8080:8080
-      - 35729:35729
+    # ports:
+    #   - 8080:8080
+    #   - 35729:35729
     volumes:
       - .:/srv/jekyll
     environment:
       - JEKYLL_ENV=development
+    command: bundle exec jekyll build
