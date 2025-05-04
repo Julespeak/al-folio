@@ -28,6 +28,20 @@
         - Certificate in Statistics and Scientific Computation
         - <a href="https://www.flickr.com/photos/utcns/14292613395">Dean's Honored Graduate</a>
 
+- title: Work Experience
+  type: time_table
+  contents:
+    - title: Staff Physicist
+      institution: <a href="https://ionq.com/">IonQ</a> - College Park, MD
+      year: 2025 - Present
+      # description:
+      #   - bleh
+    - title: Senior Physicist
+      institution: <a href="https://ionq.com/">IonQ</a> - College Park, MD
+      year: 2024 - 2025
+      # description:
+      #   - bleh
+
 - title: Research Experience
   type: time_table
   contents:
@@ -73,10 +87,17 @@
   contents:
     - title: The Ghost Detector 9000
       year: 2022 - 2023
-      description: 👻
+      description:
+       - Is it a ghost detector or just a fancy, Rust-powered Raspberry Pi motion sensor?
+       - Original write up on <a href="https://www.instructables.com/The-Ghost-Detector-9000/">Instructables</a>
+       - YouTube <a href="https://www.youtube.com/watch?v=y_uXFXTJDN4">video</a> (leave a like and subscribe!)
+       - Featured on <a href="https://hackaday.com/2023/11/21/the-ghost-detector-9000-is-a-fun-spirit-chasing-game/">Hackaday</a> and <a href="https://www.hackster.io/news/the-ghost-detector-9000-can-locate-ghosts-in-your-escape-rooms-cacd53567161">hackster.io</a>
+       
     - title: The S.P.E.C.T.R.O. Scope
       year: 2023 - 2024
-      description: 📹
+      description: 
+       - A handheld inspection camera for detecting haunted objects with a computer vision coprocessor.
+       - Where's the write up, Jules??
 
 - title: Honors and Awards
   type: time_table
