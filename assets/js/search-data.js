@@ -44,7 +44,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/repositories/";
               },
-            },{id: "post-about-the-furby",
+            },{id: "post-visit-to-boston",
+        
+          title: "visit to boston",
+        
+        description: "it happened on newbury street",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/visit-to-boston/";
+          
+        },
+      },{id: "post-about-the-furby",
         
           title: "about the furby",
         
